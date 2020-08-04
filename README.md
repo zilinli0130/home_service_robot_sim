@@ -100,6 +100,10 @@ We will be using the ROS Navigation stack, which is based on the Dijkstra's, a v
       ![home_service_2](https://user-images.githubusercontent.com/60047845/89350705-23016380-d676-11ea-9159-4869dcb68317.PNG)
       
       
-      Finally, the robot should drop off the cube object at dropp-off goal sucessfully.
+      Finally, the robot should drop off the cube object at dropp-off goal sucessfully:
+      
+      
+      ![1](https://user-images.githubusercontent.com/60047845/89353778-c8b7d100-d67c-11ea-95dc-56daf72a9690.PNG)
+
       
       
