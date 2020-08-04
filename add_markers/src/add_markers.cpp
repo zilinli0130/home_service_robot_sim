@@ -102,7 +102,7 @@ void callback(const nav_msgs::Odometry::ConstPtr& msg)
 	        return 0;
 	      }
 	      ROS_WARN_ONCE("Please create a subscriber to the marker");
-	      sleep(1);
+	      
 	    }
 	   
 	   marker_pub.publish(marker);
