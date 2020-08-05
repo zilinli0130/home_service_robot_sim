@@ -1,7 +1,7 @@
 # ROS_HomeServiceRobot
 The HomeServiceRobot project aims at programming a home service robot to pick up and drop off object autonumously in an environment without knowing its initial pose. The SLAM (Simultaneous Localization And Mapping)
 algorithm is implememnted to keep track of the robot current pose by MCL (Monte Carlo Localization) with known map assumption and the current map in robot's head by occupancy grid mapping with known robot pose assumption, which is essentially a close feedback loop process. 
-We will be using the ROS Navigation stack, which is based on the Dijkstra's, a variant of the Uniform Cost Search algorithm, to plan our robot trajectory from pick-up to drop-off goal position.
+ROS Navigation stack will be used, which is based on the Dijkstra's, a variant of the Uniform Cost Search algorithm, to plan our robot trajectory from pick-up to drop-off goal position.
 
 ## Installation
 1. Open a new terminal and build the catkin workspace:
